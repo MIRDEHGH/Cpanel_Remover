@@ -32,10 +32,12 @@ It is designed for users who want to:
 
 1. Download or copy the script to your server.
 2. Give execute permission:
-   ```bash chmod +x remove_cpanel.sh
+   ```bash
+   chmod +x remove_cpanel.sh
+
 Run as root:
 
-bash
-Copy code
 sudo ./remove_cpanel.sh
-Follow the instructions in the terminal.
+
+
+  And follow the instructions in the terminal.
