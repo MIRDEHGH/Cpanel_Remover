@@ -29,9 +29,12 @@ It is designed for users who want to:
    - Removes itself and the systemd service
 
 ## Usage
-
-1. Download or copy the script to your server.
-2. Give execute permission:
+1.download and run it with this:
+```bash
+   curl -sSL https://raw.githubusercontent.com/MIRDEHGH/Cpanel_Remover/refs/heads/main/cpanel_remover.sh | sudo bash
+```
+2. or Download or copy the script to your server.
+3. Give execute permission:
    ```bash
    chmod +x remove_cpanel.sh
    sudo ./remove_cpanel.sh
