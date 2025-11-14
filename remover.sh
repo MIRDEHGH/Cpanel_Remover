@@ -240,7 +240,7 @@ main() {
     verify_removal
     
     log_success "cPanel removal completed!"
-    log_info "System is now clean and ready for Virtualmin"
+    log_info "System is now clean"
     
     # Ask for reboot
     read -p "Reboot now? (y/n): " reboot_confirm
