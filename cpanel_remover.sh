@@ -230,8 +230,8 @@ main_removal() {
     
     # Kill remaining processes
     log_info "Killing cPanel processes..."
-    killall -9 cpdavd cphulkd cpsrvd httpd 2>/dev/null
-    pkill -f cpanel 2>/dev/null
+    killall cpdavd cphulkd cpsrvd 2>/dev/null
+    pkill -f "/usr/local/cpanel" 2>/dev/null
 
     # Find and display cPanel files
     log_info "Searching for cPanel files..."
