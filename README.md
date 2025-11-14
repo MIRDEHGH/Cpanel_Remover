@@ -34,6 +34,7 @@ It is designed for users who want to:
 2. Give execute permission:
    ```bash
    chmod +x remove_cpanel.sh
+   sudo ./remove_cpanel.sh
 
 Run as root:
 
