@@ -39,12 +39,12 @@ sudo ./remover.sh
 2. or Download or copy the script to your server.
 3. Give execute permission:
    ```bash
-   chmod +x remove_cpanel.sh
-   sudo ./remove_cpanel.sh
+   chmod +x remover.sh
+   sudo ./remover.sh
 
 Run as root:
 ```bash
-sudo ./remove_cpanel.sh
+sudo ./remover.sh
 ```
 
 
