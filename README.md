@@ -40,8 +40,9 @@ It is designed for users who want to:
    sudo ./remove_cpanel.sh
 
 Run as root:
-
+```bash
 sudo ./remove_cpanel.sh
+```
 
 
   And follow the instructions in the terminal.
