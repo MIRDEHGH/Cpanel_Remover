@@ -31,7 +31,10 @@ It is designed for users who want to:
 ## Usage
 1.download and run it with this:
 ```bash
-   curl -sSL https://raw.githubusercontent.com/MIRDEHGH/Cpanel_Remover/refs/heads/main/cpanel_remover.sh | sudo bash
+wget https://raw.githubusercontent.com/MIRDEHGH/Cpanel_Remover/main/cpanel_remover.sh
+# Then run
+chmod +x cpanel_remover.sh
+sudo ./cpanel_remover.sh
 ```
 2. or Download or copy the script to your server.
 3. Give execute permission:
